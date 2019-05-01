@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Study With Me Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+
+    <!-- Full Calendar CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.1.0/main.css">
+
+    <!-- CSS Files that are currently being used by the application -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'home.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'about.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'register.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'login.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'dashboard.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'calendar.css')}}">
+
+  </head>
+
+  <script>
+
+  </script>
+
+  <body>
+    {% include 'includes/_navbar.html' %}
+    {% block body %} {% endblock %}
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Full Calendar JS -->
+    <script src="https://fullcalendar.io/releases/core/4.1.0/main.min.js" type="text/javascript"></script>
+    <script src="https://fullcalendar.io/releases/interaction/4.1.0/main.min.js" type="text/javascript"></script>
+    <script src="https://fullcalendar.io/releases/daygrid/4.1.0/main.min.js" type="text/javascript"></script>
+    <script src="https://fullcalendar.io/releases/timegrid/4.1.0/main.min.js" type="text/javascript"></script>
+
+    <!-- Scripts from files within the project -->
+    <script src="/static/javascript/calendar.js" charset="utf-8"></script>
+
+  </body>
+</html>

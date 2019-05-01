@@ -1,0 +1,58 @@
+
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div id="dashboard-container" class="container">
+
+      <div class="row">
+
+        <div class="tile col-sm" onclick="location.href='calendar';">
+          <div class="tile-title">
+             Calendar
+          </div>
+          <div class="tile-icon">
+              <i class="fas fa-calendar-alt"></i>
+          </div>
+
+        </div>
+
+        <div class="tile col-sm" onclick="location.href='pomodoro';">
+          <div class="tile-title">
+              Pomodoro
+          </div>
+          <div class="tile-icon">
+              <i class="fas fa-clock"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="tile col-sm" onclick="location.href='scrumBoard';">
+          <div class="tile-title">
+              Scrum Board
+          </div>
+          <div class="tile-icon">
+            <i class="fas fa-table"></i>
+          </div>
+
+        </div>
+
+
+
+        <div class="tile col-sm" onclick="location.href='report';">
+          <div class="tile-title">
+              Report
+          </div>
+          <div class="tile-icon">
+            <i class="fas fa-signal"></i>
+          </div>
+
+        </div>
+
+        </div>
+      </div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+.tile:hover{
+  box-shadow: 0px 0px 1px 1px blue;
+}
+
+.tile{
+
+  background-color: wheat;
+  border-radius:10px;
+  text-align: center;
+  cursor:pointer;
+
+}
+
+.tile-title{
+
+  font-size: 40px;
+  padding-bottom:45px;
+}
+
+.tile-icon{
+
+  font-size: 100px;
+
+}
+
+#dashboard-container .row, #dashboard-container .col-sm{
+
+  margin: 10px;
+
+}
