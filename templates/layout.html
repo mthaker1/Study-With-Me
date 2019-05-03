@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
     <!-- Full Calendar CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.1.0/main.css">
@@ -17,12 +19,14 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'login.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'dashboard.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'calendar.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'pomodoro.css')}}">
 
+    <!-- React Scripts -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   </head>
 
-  <script>
-
-  </script>
 
   <body>
     {% include 'includes/_navbar.html' %}
@@ -41,6 +45,7 @@
 
     <!-- Scripts from files within the project -->
     <script src="/static/javascript/calendar.js" charset="utf-8"></script>
+    <script type="text/babel" src="/static/javascript/pomodoro.js"></script>
 
   </body>
 </html>

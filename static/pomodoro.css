@@ -1,0 +1,72 @@
+#pomodoroPageContainer{
+  margin-top:3%;
+}
+
+#pomodoroPageTopLayer{
+  width:100%;
+}
+
+
+#pomodoroPageTitle{
+  font-size:50px;
+  color:black;
+  font-weight: bold;
+}
+
+
+.pomodoroLongButton{
+  width: 300px;
+  background-color: lightslategray;
+  border-color:lightslategray;
+}
+
+#pomodoroTimer{
+  color:dimgray;
+  font-size: 80px;
+  margin-top: 30px;
+}
+
+.pomodoroLargeButton{
+  margin-right: 40px;
+  margin-left: 40px;
+  height: 50px;
+  width: 100px;
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+#pomodoroStart{
+  background-color: forestgreen;
+  border-color:forestgreen;
+}
+
+#pomodoroStop{
+  background-color: red;
+  border-color:red;
+}
+
+#pomodoroReset{
+  background-color: grey;
+  border-color:grey;
+}
+
+#pomodoroTimeChange{
+  color: steelblue;
+  margin-top: 25px;
+}
+
+
+
+#pomodoroAddTime{
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: steelblue;
+  border-color:steelblue;
+}
+
+#pomodoroMinusTime{
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: steelblue;
+  border-color:steelblue;
+}
